@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffedf4">
+  <meta name="description" content="A tiny Valentine surprise made with love for Aishuuuuu.">
+  <title>Aishuuuuu, one tiny question 💗</title>
+  <link rel="icon" href="assets/heart.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true" id="floatingHearts"></div>
+  <main class="page-shell">
+    <div class="top-note"><span class="sparkle">✦</span> a very important question <span class="sparkle">✦</span></div>
+
+    <section class="card intro-card" id="introScreen" aria-labelledby="mainTitle">
+      <div class="sticker sticker-left" aria-hidden="true">♡</div>
+      <div class="sticker sticker-right" aria-hidden="true">✿</div>
+      <div class="illustration" aria-hidden="true">
+        <div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+        <div class="bear">ʕっ♡ᴥ♡ʔっ</div>
+        <div class="tiny-heart heart-one">♥</div><div class="tiny-heart heart-two">♥</div>
+      </div>
+      <p class="eyebrow">ATTENTION, AISHWARYA!</p>
+      <h1 id="mainTitle">Aishuuuuu…<br><span>will you be my Valentine?</span></h1>
+      <p class="intro-copy">I have a tiny question for my favourite human.<br>Choose wisely, Anyyything. 👀💗</p>
+
+      <div class="button-stage" id="buttonStage">
+        <button class="btn btn-yes" id="yesButton" type="button">YESSS, obviously! 💖</button>
+        <button class="btn btn-no" id="noButton" type="button">No 🙄</button>
+      </div>
+      <p class="hint" id="hintText">Psst… try the other button if you dare.</p>
+      <p class="signature">made with an unreasonable amount of love ♡</p>
+    </section>
+
+    <section class="card reveal-card hidden" id="revealScreen" aria-live="polite" aria-labelledby="revealTitle">
+      <div class="celebration" aria-hidden="true">💗 ✨ 🌸 ✨ 💗</div>
+      <div class="big-heart" aria-hidden="true">💘</div>
+      <p class="eyebrow">CORRECT ANSWER, MADAM</p>
+      <h2 id="revealTitle">YAYYYYY, AISHUUUUU! 🥹</h2>
+      <p class="reveal-copy">I knew my Biryani Paglu had excellent taste.</p>
+
+      <div class="mini-story">
+        <div class="story-item"><span class="story-emoji">🍛</span><div><strong>For my Biryani Paglu</strong><p>May your biryani always have extra love, and may nobody ever steal your last bite.</p></div></div>
+        <div class="story-item"><span class="story-emoji">😴</span><div><strong>For my sleepy head</strong><p>May you get the softest naps, the sweetest dreams, and all the cuddles you deserve.</p></div></div>
+        <div class="story-item"><span class="story-emoji">🦒</span><div><strong>For my Lambuuu</strong><p>Even from miles away, you’re still my favourite person to look up to. Literally. 😂</p></div></div>
+      </div>
+
+      <div class="love-letter">
+        <div class="letter-label">a little note for you 💌</div>
+        <p>Dear Aishuuuuu,</p>
+        <p>Out of all the people in this world, I’m so glad I get to love <em>you</em>. Your silly little ways, your sleepy-head moments, your biryani obsession, and every tiny thing that makes you <strong>Anyyything</strong> to me.</p>
+        <p>Even with all these miles between us, you make ordinary days feel special. So this Valentine’s Day, I’m sending you a big squishy hug, a thousand forehead kisses, and a reminder that you’re loved more than this tiny website can ever explain.</p>
+        <p class="letter-signoff">Forever your person (and professional irritator),<br><strong>your Valentine 💗</strong></p>
+      </div>
+
+      <div class="final-question">
+        <p>Now one last thing…</p>
+        <h3>Can I keep choosing you, every day? 🥺</h3>
+        <button class="btn btn-yes btn-forever" id="foreverButton" type="button">Obviously, Lambuuu 💞</button>
+        <p class="forever-response hidden" id="foreverResponse">Locked in. No refunds. You’re stuck with me. 😌💕</p>
+      </div>
+
+      <button class="music-toggle" id="musicToggle" type="button" aria-pressed="false">♫ Turn on our tiny love song</button>
+      <p class="music-note">Optional music • tap to play a little original melody</p>
+      <button class="restart" id="restartButton" type="button">← make me ask you again</button>
+    </section>
+    <footer>somewhere in the world, someone is smiling because of you ♡</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
